@@ -38,7 +38,7 @@ a{
 
 a:hover{
   color: rgb(136, 136, 136);
-} 
+}
 
 form{
   display: flex;
@@ -66,7 +66,7 @@ table {
     width: 100%;
     display: table;
     border: 1px solid #ccc;
-
+    
 }
 
 td, th {
@@ -76,11 +76,11 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #012A36;
 }
 
 .dark{
-  background-color: #12121296;
+  background-color: #000;
   color: white;
 }
 .dark > a {
