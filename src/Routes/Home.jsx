@@ -11,6 +11,7 @@ const Home = () => {
     fetch('https://dhodonto.ctdprojetos.com.br/dentista')
       .then(res => {res.json()
       .then(dataDentists => {
+          // console.log(dataDentists);
           setDentists(dataDentists)
         })
       })
@@ -21,11 +22,13 @@ const Home = () => {
       <h1>Home</h1>
       <div className="card-grid container">
         {
-          dentists.map((dentist) => {
+          dentists.map((dentist, index) => {
             return(
               <Card
-                cardData={dentist}
-                key={dentist.matricula}
+                matricula={dentist.matricula}
+                key={index}
+                name={dentist.nome}
+                surname={dentist.sobrenome}
               />
             )
           })

@@ -20,8 +20,8 @@ const DetailCard = () => {
       res => {
         if(res.ok) {
           res.json().then(
-            data => {
-              setDentists(data)
+            dataDentists => {
+              setDentists(dataDentists)
             }
           )
         }
@@ -30,8 +30,6 @@ const DetailCard = () => {
 
   }, [dentists, params.matricula]);
   return (
-     //As instruções que estão com {''} precisam ser
-    //substituídas com as informações que vem da api
     <>
       {dentists?.usuario ? (
         <>

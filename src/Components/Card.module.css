@@ -17,8 +17,10 @@
 
 .CardBody{
   width: 100%;
+  color: #fff;
 }
 
 .title{
   height: 2rem;
+  color: #000;
 }
