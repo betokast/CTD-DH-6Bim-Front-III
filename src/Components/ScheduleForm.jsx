@@ -195,7 +195,7 @@ const ScheduleForm = () => {
           </div>
           <div className={`row rowSpacing`}>
 
-            <button className={`btn btn-${theme} button`} type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button className={`btn btn-detail btn-${theme} button`} type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Agendar
             </button>
           </div>

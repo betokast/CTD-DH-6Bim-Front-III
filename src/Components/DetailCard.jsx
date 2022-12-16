@@ -59,7 +59,7 @@ const DetailCard = () => {
                   <button
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
-                    className={`btn btn-${theme} ${styles.button
+                    className={`btn btn-detail btn-${theme} ${styles.button
                       }`}
                   >
                     Marcar consulta
