@@ -48,6 +48,10 @@ form{
   margin: 0 auto;
 }
 
+.btn{
+  margin-top: 1.5rem;
+}
+
 .btn-light{
   background-color: rgb(214, 214, 214);
 }

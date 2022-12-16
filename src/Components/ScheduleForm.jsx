@@ -77,7 +77,7 @@ const ScheduleForm = () => {
         } else if (res.status === 403) {
           if (auth === '') {
             throw Error(
-              'Acesso negado! Por favor logue-se para poder agendar'
+              'Acesso negado! Você precisa logar para poder agendar'
             )
           } else {
             saveToken({
