@@ -16,10 +16,13 @@
 
 .CardBody{
   width: 100%;
-  color: #fff;
 }
 
 .title{
   height: 2rem;
+  color: #000;
+}
+
+.CardBody .link{
   color: #000;
 }

@@ -8,7 +8,7 @@ import Login from "./Routes/Login";
 import Detail from "./Routes/Detail";
 // import Footer from "./Components/Footer";
 import "./index.css";
-import { createBrowserRouter, Navigate, RouterProvider, redirect } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, redirect } from "react-router-dom";
 import App from "./App";
 import {ThemeProvider} from "./hooks/useTheme";
 import { AuthProvider } from "./hooks/useAuth";
@@ -36,7 +36,7 @@ const routerApp = createBrowserRouter([
       element: <Detail />
     },
     {
-      path: "*",
+      path: "/",
       loader: () => redirect("/home")
     }]
   }

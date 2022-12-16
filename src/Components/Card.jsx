@@ -17,7 +17,7 @@ const Card = (props) => {
         />
         <div className={`card-body ${styles.CardBody}`}>
 
-          <Link to={`../dentist/${props.matricula}`}>
+          <Link className="link" to={`../dentist/${props.matricula}`}>
             <h5 className={`card-title ${styles.title}`}>{props.nome} {props.sobrenome}</h5>
             <p className={`${theme === 'dark' ? `${styles.cardTextDark}` : `${styles.cardTextLight}`}`}>{props.usuario}</p>
           </Link>
